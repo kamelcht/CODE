@@ -406,6 +406,10 @@ footer {
   background-color: white;
 }
 
+.button-research-phone{
+  display: none;
+}
+
 
 
 .englobe img {
@@ -465,6 +469,10 @@ footer {
     margin: 0;
   }
 
+  .show-more{
+    padding-top: 10px;
+    margin-bottom: 60px;
+  }
 
   .filters-ul{
     display: inline-block;
@@ -478,6 +486,7 @@ footer {
   .bloc-most-popular{
     display: block;
     width: 100%;
+    border-radius: 0;
   }
 
   .navbar-right {
@@ -542,6 +551,8 @@ footer {
 
   .marseille-case{
     display: block;
+    box-shadow: 0px 0px 6px 0px #0000002e;
+
   }
 
 
@@ -560,6 +571,7 @@ footer {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  background-color: white;
 }
 
 .marseille-case{
@@ -679,6 +691,20 @@ footer {
 
   .englobe img{
     height: 75%;
+  }
+
+
+  .button-research-phone{
+  display: inline-block;
+  background-color: #0065fc;
+  color: white;
+  border: solid;
+  border-radius: 14px 14px 14px 14px;
+  padding: 10px 17px;
+}
+
+  .button-research-phone i{
+    color: white;
   }
 
   body{
