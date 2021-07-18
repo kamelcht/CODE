@@ -574,12 +574,6 @@ footer {
   background-color: white;
 }
 
-.marseille-case{
-  width: 85% !important;
-  padding: 0;
-  margin: 15px; 
-  align-content: center;
-}
 
 
   .bloc{
@@ -592,7 +586,7 @@ footer {
   }
 
   .marseille-case{
-    width: 100%;
+    width: calc(100% - 34px);
   }
 
 
@@ -620,7 +614,11 @@ footer {
   .marseille-activities{
     height: auto;
     margin: 0;
-    width: 100%;
+    width: calc(100% - 10px);
+  }
+
+  .marseille-activities div{
+    width: calc(100% - 10px);
   }
 
 
@@ -655,7 +653,7 @@ footer {
   }
 
   .quatrieme-rang {
-    width: auto;
+    width: calc(100% - 34px);
 }
 
   .title-h1 {
