@@ -6,10 +6,12 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
-}
+  width: 100%;
+  }
 
 header {
   height: 100px;
+
 }
 
 #logo {
@@ -53,20 +55,18 @@ header {
   border-top: 3px solid #0065fc;
 }
 
-main {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 .title-h1 {
   font-size: 25px;
   font-weight: bolder;
   margin-bottom: 5px;
+  margin-left: 30px;
 }
 
 .subtitle {
   font-size: 17px;
   margin-top: 5px;
+  margin-left: 30px;
+
 }
 
 .research-box {
@@ -74,6 +74,7 @@ main {
   padding: 25px;
   padding-left: 0px;
   height: 50px;
+  margin-left: 30px;
 }
 
 
@@ -111,10 +112,14 @@ main {
   padding: 10px;
   border-left: 0px;
 }
+.button-research a{
+  color: white;
+}
 
 .filters {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
 .filters-ul {
@@ -144,6 +149,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 .info p {
@@ -166,7 +172,10 @@ main {
 
 .blocs {
   display: inline-flex;
-  width: 100%;
+  width: calc(100% - 60px);
+  padding-left: 30px;
+  padding-right: 30px;
+
 }
 
 .bloc-accomodation {
@@ -212,6 +221,7 @@ main {
 .show-more{
  font-weight: bold;
  margin-left: 18px;
+ padding-top: 50px;
 }
 
 .marseille-cases {
@@ -225,7 +235,7 @@ main {
 
 .title-h2 {
   display: block;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .hostingMainCardGradeIcon{
@@ -257,7 +267,7 @@ main {
 }
 
 .activity__full-card {
-  width: 20%;
+  width: 25%;
   display: inline-flex;
 }
 
@@ -268,9 +278,10 @@ footer {
 
 .footer-blocs {
   display: inline-flex;
-  width: 100%;
   font-size: 15px;
   margin-left: 20px;
+  width: 80%;
+  
 }
 
 
@@ -278,6 +289,7 @@ footer {
 .footer-bloc {
   width: 30%;
   display: inline;
+  padding: 10px 30px;
 }
 
 .footer-bloc a {
@@ -335,7 +347,9 @@ footer {
 
 .marseille-activities {
   display: inline-flex;
-  width: 100%;
+  width: calc(100% - 60px);
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .deuxieme-rang {
@@ -435,7 +449,7 @@ footer {
 }
 
 .marseille-activities {
-  width: 100%;
+  width: calc(100% - 60px);
   height: 420px;
 }
 
@@ -447,7 +461,8 @@ footer {
   main{
     display: block;
     overflow-x:hidden;
-    max-width: 375px;
+    width: 100%;  
+    margin: 0;
   }
 
 
@@ -494,6 +509,7 @@ footer {
   header{
     height: auto;
     position: relative;
+    width: 100%;
   }
 
   .navbar{
@@ -503,6 +519,7 @@ footer {
   .blocs{
     display: block;
     width: 100%;
+    padding: 0;
   }
 
   .filters{
@@ -527,9 +544,6 @@ footer {
     display: block;
   }
 
-  main {
-    padding-left: 0;
-    padding-right: 0px;}
 
 .blocs {
     display: flex;
@@ -588,11 +602,13 @@ footer {
 
   .activity__full-card{
     display: block;
-
+    width: 100%;
   }
 
   .marseille-activities{
     height: auto;
+    margin: 0;
+    width: 100%;
   }
 
 
@@ -609,13 +625,8 @@ footer {
 
   .footer-blocs{
     display: block;
-    width: 100%;
   }
 
-  .footer{
-    width: calc(100% - 20px);
-    padding: 10px;
-  }
 
   footer{
     background-color: #f2f2f2;
@@ -637,6 +648,7 @@ footer {
 
   .title-h1 {
     padding: 10px;
+    font-size: 23px;
   }
 
   .subtitle {
@@ -653,6 +665,7 @@ footer {
 
   .filters{
     padding: 10px;
+    margin: 0;
   }
 
   .info{
@@ -661,19 +674,19 @@ footer {
 
   .title-h2{
     padding: 15px;
+    margin: 0;
   }
 
-  header{
-    width: 99%;
+  .englobe img{
+    height: 75%;
   }
 
   body{
-    width: 99%;
+    width: 100%;
   }
 
   html{
-    width: 99%;
+    width: 100%;
   }
-
 
 }
