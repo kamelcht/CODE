@@ -133,6 +133,11 @@ header {
   border: 2px solid #f2f2f2;
 }
 
+.filters-button:hover {
+  color: #0065fc;
+}
+
+
 .filters-button i {
   padding: 10px;
   color: #0065fc;
@@ -521,9 +526,18 @@ footer {
     display: inline-block;
   }
 
+
   .marseille-case {
     display: block;
     box-shadow: 0px 0px 6px 0px #0000002e;
+  }
+
+  #activity-3 a{
+    width: 100%;
+  }
+
+  #activity-6 a{
+    width: 100%;
   }
 
   .blocs {
@@ -670,5 +684,28 @@ footer {
 
   html {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 487px) {
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  .login {
+    position:static;
+  }
+
+  .navbar-right {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    position: absolute;
+    right: 10px;
   }
 }
