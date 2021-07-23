@@ -757,7 +757,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 487px) {
+@media screen and (min-width: 608px) {
 
   .navbar {
     display: flex;
@@ -785,5 +785,9 @@ footer {
 
   .most-popular-case-img img {
     width: 300px;
+  }
+
+  .login{
+    display: inline-flex;
   }
 }
