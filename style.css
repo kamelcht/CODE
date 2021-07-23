@@ -287,10 +287,7 @@ header {
   display: inline-flex;
 }
 
-#activity-1 {
-  display: inline-flex;
-  width: 25%;
-}
+
 
 #activity-2 {
   display: flex;
@@ -643,6 +640,14 @@ footer {
     width: 100%;
   }
 
+  #activity-2 a {
+    width: 100%;
+}
+
+  #activity-1 {
+  width: 100%;
+  display: block;
+}
 
 
   #activity-6 a{
